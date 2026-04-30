@@ -21,10 +21,12 @@ Karakter kutip tunggal (`'`) digunakan untuk memutus string pada SQL, sementara 
 ### 🛡️ Solusi Keamanan: Prepared Statements
 Cara paling efektif untuk mencegah serangan ini adalah dengan memisahkan **logika SQL** dari **data pengguna**. Saya mengimplementasikan **PDO (PHP Data Objects)** untuk memastikan input diproses sebagai parameter, bukan sebagai perintah yang dieksekusi.
 
-```php
+```
+php
 // Snippet kode aman menggunakan PDO
 $stmt = $pdo->prepare('SELECT * FROM users WHERE username = :user');
 $stmt->execute(['user' => $username]);
 $user = $stmt->fetch();
+```
 📊 Perbandingan KeamananMetodeTingkat KeamananKeteranganString ConcatenationSangat RendahSangat mudah diserang (Default)Sanitasi ManualSedangRentan terhadap bypass encodingPrepared StatementsTinggiStandar industri, risiko SQLi 0%📚 ReferensiOWASP SQL Injection Prevention Cheat SheetPHP Documentation: PDO ClassProyek ini disusun oleh Khusnul Khotimah sebagai bagian dari tugas UTS Pemrograman Web di Universitas Pelita Bangsa.
 ---
