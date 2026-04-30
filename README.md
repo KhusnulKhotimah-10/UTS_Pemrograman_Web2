@@ -30,3 +30,26 @@ $user = $stmt->fetch();
 ```
 📊 Perbandingan KeamananMetodeTingkat KeamananKeteranganString ConcatenationSangat RendahSangat mudah diserang (Default)Sanitasi ManualSedangRentan terhadap bypass encodingPrepared StatementsTinggiStandar industri, risiko SQLi 0%📚 ReferensiOWASP SQL Injection Prevention Cheat SheetPHP Documentation: PDO ClassProyek ini disusun oleh Khusnul Khotimah sebagai bagian dari tugas UTS Pemrograman Web di Universitas Pelita Bangsa.
 ---
+
+
+<img width="593" height="236" alt="image" src="https://github.com/user-attachments/assets/9571635e-e368-4b0c-b073-893da19f1eb6" />
+
+# 🛡️ Quality Assurance: Content Integrity Report
+Proyek ini telah melalui proses verifikasi keaslian konten menggunakan layanan DupliChecker untuk menjamin bahwa artikel yang disusun merupakan karya orisinal.  
+
+Ringkasan Hasil Pemindaian (30-04-2026):
+
+
+Unique Content: 95%.  
+
+
+Plagiarism Score: 5% (Identifikasi pada terminologi teknis standar dan referensi query).  
+
+
+Total Data: Terdiri dari 443 kata dan 3.327 karakter.  
+
+
+Read Time: Estimasi waktu baca sekitar 3 menit.  
+
+Analisis Hasil:
+Skor unik sebesar 95% menunjukkan tingkat orisinalitas yang sangat tinggi. Persentase kecil (5%) yang terdeteksi sebagai kecocokan persis (Exact Match) disebabkan oleh penggunaan istilah teknis standar keamanan web, cuplikan kode SQL umum, serta kutipan referensi dari dokumentasi resmi yang tidak dapat diubah.
