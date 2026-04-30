@@ -34,20 +34,28 @@ $user = $stmt->fetch();
 
 <img width="593" height="236" alt="image" src="https://github.com/user-attachments/assets/9571635e-e368-4b0c-b073-893da19f1eb6" />
 
-# 🛡️ Quality Assurance: Content Integrity Report
-Proyek ini telah melalui proses verifikasi keaslian konten menggunakan layanan DupliChecker untuk menjamin bahwa artikel yang disusun merupakan karya orisinal.  
+# Publikasi Artikel
+Analisis lengkap mengenai proyek ini telah dipublikasikan di Medium. Anda dapat membaca artikel selengkapnya melalui tautan berikut:
+👉 Mekanisme SQL Injection dan Strategi Keamanan - Medium
+```
+https://medium.com/@husnulkhotimah100105/mekanisme-sql-injection-dan-strategi-keamanan-8cb1f71f8977
+```
 
-Ringkasan Hasil Pemindaian (30-04-2026):
+🛡️ Quality Assurance: Content Integrity Report
+Proyek ini telah melalui proses verifikasi keaslian konten untuk menjamin integritas karya akademik.
 
+Hasil Pemeriksaan Plagiarisme (30-04-2026):
 
-Unique Content: 95%.  
+Unique Content: 95%.
 
+Plagiarism Score: 5% (Identifikasi pada terminologi teknis standar).
 
-Plagiarism Score: 5% (Identifikasi pada terminologi teknis standar dan referensi query).  
+Total Data: 443 kata / 3.327 karakter.
 
+Analisis Laporan:
+Skor unik sebesar 95% membuktikan orisinalitas konten yang sangat tinggi. Kecocokan sebesar 5% adalah hal wajar karena penggunaan istilah teknis keamanan web yang baku serta referensi query SQL yang memang bersifat standar dalam pemrograman PHP.
 
-Total Data: Terdiri dari 443 kata dan 3.327 karakter.  
-
+Disusun oleh: Khusnul Khotimah | Tugas UTS Pemrograman Web - Universitas Pelita Bangsa.
 
 Read Time: Estimasi waktu baca sekitar 3 menit.  
 
