@@ -1,5 +1,5 @@
 # UTS_Pemrograman_Web2
-```
+
 # Web Security Lab: SQL Injection Mechanism & Mitigation in PHP
 
 Repositori ini berisi analisis mendalam dan simulasi eksperimen mengenai kerentanan **SQL Injection (SQLi)** pada aplikasi web berbasis PHP, serta strategi mitigasi menggunakan *industry standard practices*.
